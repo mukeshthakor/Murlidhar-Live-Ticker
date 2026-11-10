@@ -117,22 +117,6 @@ body.theme-2023.prov-streamlabs, body.theme-2023.prov-prism{--barH:112px;}
   html,body{margin:0;height:100%;width:100%;overflow:hidden;background:transparent;
             font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;}
 
-
-  /* Permanent Murlidhar Score watermark */
-  #murlidhar-watermark{
-    position:fixed; left:50%; bottom:calc(var(--barH) + 22px);
-    transform:translateX(-50%); z-index:999;
-    padding:5px 12px; border-radius:5px;
-    background:rgba(5,18,38,.78); color:#fff;
-    font-size:14px; font-weight:800; letter-spacing:.5px;
-    white-space:nowrap; pointer-events:none;
-    text-shadow:0 1px 2px rgba(0,0,0,.45);
-  }
-  body.theme-2023 #murlidhar-watermark{bottom:calc(var(--barH) + 6px);}
-  @media(max-width:520px){
-    #murlidhar-watermark{font-size:11px; padding:4px 8px;}
-  }
-
   #bar{
     position:fixed; left:18px; right:18px; bottom:16px; height:var(--barH);
     display:flex; align-items:stretch; color:var(--name);
